@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="backgd">
+      <div class="todo-box">
+        <h1 class="h1-manageTodo">Manage Your Todos</h1>
+        <div class="form-div">
+          <div action="" class="form">
+            <input
+              type="text"
+              id="geting-todo"
+              name="Write todo here"
+              id=""
+              placeholder="   Write todo here"
+              preventDefault
+              style="
+                width: 40vw;
+                height: 7vh;
+                border-radius: 7px;
+                border: none;
+                border: 0.5px solid rgba(0, 0, 0, 0.475);
+                margin-right: 0px;
+                background-color: rgba(255, 255, 255, 0.797);
+              "
+            />
+            <input
+              type="button"
+              value="ADD"
+              id="Submit-button"
+              class="submit-btn"
+              onclick="{OngettingInput()}"
+              style="
+                height: 7vh;
+                width: 6vw;
+                border: 1px solid rgba(0, 0, 0, 0.475);
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman',
+                  serif;
+                color: white;
+                cursor: pointer;
+                font-weight: bolder;
+                border-radius: 7px;
+                border: none;
+                background-color: green;
+              "
+            />
+          </div>
+          <div class="todo-display">
+           
+            <script src="./1.js"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="background-changer" onclick="BackgroundChanger()">BG-C</div>
+  </body>
+</html>
